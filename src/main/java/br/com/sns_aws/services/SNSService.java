@@ -8,7 +8,7 @@ import software.amazon.awssdk.services.sns.model.PublishRequest;
 import software.amazon.awssdk.services.sns.model.PublishResponse;
 
 public class SNSService {
-    private static String topicArn = "arn:aws:sns:us-east-1:763818760783:poc-sns";
+    private static String topicArn = "arn:aws:sns:us-east-1:755977887883:sns-grupo6a";
 
     public static void sendMessage(String message){
         AwsCredentialsProvider credentialsProvider = new AwsCredentialsProvider() {
